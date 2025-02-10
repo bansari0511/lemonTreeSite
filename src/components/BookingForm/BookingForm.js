@@ -61,7 +61,7 @@ const BookingForm = ({ availableTimes, dispatch }) => {
       </LinkR>
       <div className='bookings-container'>
         <h2 className='booking-header'>Little Lemon</h2>
-        <h2 className='booking-subheader'>New Delhi</h2>
+        <h2 className='booking-subheader'>Chicago</h2>
         <h1 className='booking-title'>Find a Table for any occasion</h1>
         <form
           className='form-container'

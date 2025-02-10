@@ -3,7 +3,7 @@ import { testimonials } from '../../data';
 import star from '../../assets/testimonials/star.svg';
 
 const Testimonials = () => {
-  const testimonialLinks = testimonials.map(({ id, image, name }) => {
+  const testimonialLinks = testimonials.map(({ id, image, name, review }) => {
     return (
       <div key={id} className='testimonials-map-container'>
         <img src={image} alt={name} className='testimonials-image' />
@@ -16,9 +16,7 @@ const Testimonials = () => {
         </div>
         <p className='testimonials-name'>{name}</p>
         <p className='testimonials-description'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          reiciendis. Possimus voluptas perspiciatis nisi eveniet odit
-          doloribus.
+        {review}
         </p>
       </div>
     );

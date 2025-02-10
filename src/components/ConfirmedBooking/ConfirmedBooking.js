@@ -49,11 +49,11 @@ const ConfirmedBooking = () => {
 
       <div className='confirmation-location'>
         <img src={location} alt='location' className='location-logo' />
-        Little Lemon, Rajiv Chowk
+        Little Lemon, 2548 Matthews Street
         <br />
-        New Delhi, India 110001
+        Chicago, Illinois - 60631
         <a
-          href='https://maps.app.goo.gl/PEj8szKKa4SLiXFD6'
+          href='https://maps.app.goo.gl/nHrKcgX1Cmixq9ED7'
           target={'_blank'}
           rel='noreferrer'
         >

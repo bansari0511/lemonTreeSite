@@ -62,11 +62,11 @@ const Footer = () => {
             <br />
             Little Lemon
             <br />
-            Rajiv Chowk
+            Matthews Street
             <br />
-            New Delhi, 110001
+            Chicago, Illinois - 60631
             <br />
-            INDIA
+            USA
             <br />
             <br />
             <div className='contacts'>{contactLinks}</div>

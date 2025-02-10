@@ -7,10 +7,10 @@ const Hero = () => {
     <section className='hero'>
       <div className='display-container'>
         <h1 className='display-title'>Little Lemon</h1>
-        <h3 className='display-subtitle'>New Delhi</h3>
+        <h3 className='display-subtitle'>Chicago</h3>
         <h4 className='display-text'>
-          We are a family owned Mediterranean restaurant, focused on traditional
-          recipes served with a modern twist.
+          We are a modern Mediterranean restaurant, focused on traditional
+          recipes served with a gen z twist.
         </h4>
         <LinkR to='/bookings' className='reserve-button'>
           Reserve a Table

@@ -7,10 +7,10 @@ import bruschetta from './assets/specials/bruschetta.jpg';
 import lemonDessert from './assets/specials/lemonDessert.jpg';
 
 // TESTIMONIALS
-import andrea from './assets/testimonials/andrea.jpg';
-import jane from './assets/testimonials/jane.jpg';
-import john from './assets/testimonials/john.jpg';
-import mark from './assets/testimonials/mark.jpg';
+import sheila from './assets/testimonials/sheila.jpg';
+import james from './assets/testimonials/james.jpg';
+import chang from './assets/testimonials/chang.jpg';
+import abigail from './assets/testimonials/abigail.jpg';
 
 // LINKS FOR NAVBAR
 export const links = [
@@ -37,7 +37,7 @@ export const specials = [
     id: 1,
     image: greekSalad,
     name: 'Greek Salad',
-    price: 'Rs. 600',
+    price: '$ 600',
     description:
       'Enjoy our famous Greek salad, a crisp mix of lettuce, peppers, and olives, topped with rich Italian-style feta and crunchy garlic-rosemary croutons—a true Mediterranean delight.',
   },
@@ -45,7 +45,7 @@ export const specials = [
     id: 2,
     image: bruschetta,
     name: 'Bruschetta',
-    price: 'Rs. 250',
+    price: '$ 250',
     description:
       'Our Bruschetta features perfectly grilled bread, infused with the rich aroma of garlic and seasoned with a touch of sea salt and premium olive oil. A simple yet irresistible classic, bursting with authentic Italian flavors.',
   },
@@ -53,7 +53,7 @@ export const specials = [
     id: 3,
     image: lemonDessert,
     name: 'Lemon Dessert',
-    price: 'Rs. 100',
+    price: '$ 100',
     description:
       'This dish comes straight from Grandma’s cherished recipe book, crafted with the finest, authentically sourced ingredients to bring you a taste of tradition in every bite.',
   },
@@ -63,24 +63,28 @@ export const specials = [
 export const testimonials = [
   {
     id: 1,
-    image: andrea,
-    name: 'Andrea Smith',
+    image: sheila,
+    name: 'Sheila Smith',
+    review: "The falafel platter at Little Lemon is delicious, with perfectly seasoned crispy balls and a variety of tangy sauces.",
   },
   {
     id: 2,
-    image: jane,
-    name: 'Jane Marks',
+    image: james,
+    name: 'James Marks',
+    review: "The hummus and pita are top-notch, with creamy and smooth hummus and warm, fluffy pita.",
   },
   {
     id: 3,
-    image: john,
-    name: 'John Doe',
+    image: chang,
+    name: 'Anthony Chang',
+    review: "The grilled chicken kebab at the is juicy and packed with flavor, served with a side of perfectly seasoned rice.",
   },
 
   {
     id: 4,
-    image: mark,
-    name: 'Mark James',
+    image: abigail,
+    name: 'Abigail Gayle',
+    review: "The stuffed grape leaves at the Little Lemon grill are a must-try, with a delicate and tangy filling wrapped in a tender grape leaf.",
   },
 ];
 
